@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanotaniana</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .list-group-item {
+            border: 1px solid #ddd;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Créateur de Formulaire de Sondage</h1>
+        <div id="form-builder" class="mt-4">
+            <!-- Les champs du formulaire seront ajoutés ici dynamiquement -->
+        </div>
+        <button id="add-field" class="btn btn-primary mt-3">Ajouter un champ</button>
+        <button id="save-form" class="btn btn-success mt-3">Sauvegarder le formulaire</button>
+
+        <div id="forms-container">
+            <!-- Les formulaires seront affichés ici -->
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="scripts/script01.js"></script>
+</body>
+
+</html>
